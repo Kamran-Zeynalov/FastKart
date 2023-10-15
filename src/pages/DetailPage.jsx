@@ -5,17 +5,14 @@ import Detail from "../components/ShopDetailCM/ShopDetailCM";
 import Sticky from "../components/StickyNav/Sticky";
 
 function DetailPage() {
-    return (
-        <>
-            <AllHeader />
-            <Detail />
-        <Sticky />
-
-            <AllFooter />
-
-        </>
-    )
+  return (
+    <>
+      <AllHeader />
+      <Detail />
+      <Sticky />
+      <AllFooter />
+    </>
+  );
 }
-
 
 export default DetailPage;
